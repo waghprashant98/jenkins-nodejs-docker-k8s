@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "pdockersavant/devops-demo:v1"
+        image: "pdockersavant/devops-demo:latest"
         ports:
           - containerPort: 5000
 ---
