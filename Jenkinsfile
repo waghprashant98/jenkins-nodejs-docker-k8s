@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Git Checkout....') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'Git', url: 'https://github.com/pravinksavant/jenkins-nodejs-docker-k8s.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'Git', url: 'https://github.com/devopscloudworld/jenkins-nodejs-docker-k8s.git']]])
             }
         }
         
