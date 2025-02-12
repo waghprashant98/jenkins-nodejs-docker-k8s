@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "pw1597/k8s_proj:v1"
+        image: "pw1597/k8s_proj:v2"
         ports:
           - containerPort: 5000
 ---
